@@ -12,6 +12,7 @@ public class Main {
 
         Employee emp1 = applicationContext.getBean(Employee.class);
 
+
         emp1.getEmpAddress();
     }
 }
